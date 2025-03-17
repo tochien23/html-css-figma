@@ -53,6 +53,10 @@ input:-webkit-autofill:hover {
     caret-color: var(--text-color);
 }
 
+.icon {
+    filter: var(--icon-color);
+}
+
 .container {
     @include abstracts.screen(sm) {
         padding-left: 20px !important;
